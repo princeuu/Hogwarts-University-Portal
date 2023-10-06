@@ -1,0 +1,32 @@
+
+[
+    {
+      "name": "Kyle",
+      "email": "Kyle@HogUni.com",
+      "pass": "Kyle123",
+      "role": "student",
+      "ID": 123
+    },
+    {
+      "name": "Jamie",
+      "email": "Jamie@HogUni.com",
+      "pass": "Jamie123",
+      "role": "student",
+      "ID": 124
+    },
+    {
+      "name": "Prince",
+      "email": "Prince@HogUni.com",
+      "pass": "Prince123",
+      "role": "student",
+      "ID": 125
+    },
+    {
+      "name": "Ding",
+      "email": "Ding@HogUni.com",
+      "pass": "Ding123",
+      "role": "teacher",
+      "ID": 126
+    }
+  ]
+  

@@ -1,0 +1,137 @@
+/* Main registration text styling */
+.drop-text {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* No margin for registration text h2 */
+.drop-text h2 {
+  font-family: "Bluu Next Bold", Papyrus, fantasy;
+  top: 0%;
+  left: 50%;
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for registration text p */
+.drop-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Styling for the course registration button */
+.drop-course-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Styling for the course cards in the registration page */
+.course-cardDrop {
+  width: 250px;
+  min-height: 500px; /* Change 'height' to 'min-height' */
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Styling for paragraphs within the course cards */
+.course-cardDrop p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  margin-top: 10;
+  color: #333333;
+}
+
+/* Styling for the register button within the course cards */
+.course-cardDrop button {
+  background: #d25d5d;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the register button within the course cards */
+.course-cardDrop button:hover {
+  background: #b00c0c;
+}
+
+/* Description styling */
+.course-cardDrop .description1 {
+  position: absolute;
+  bottom: 130px;
+  font-weight: bold;
+}
+
+/* Styling for the course list container */
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Styling for the course card container */
+.course-card-container {
+  display: flex;
+  justify-content: center;
+  max-height: 62vh;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000000;
+  height: 1px;
+  margin: 1px 0;
+}
+
+h4 {
+  font-weight: bold; /* This will make the text bold */
+  font-size: 20px;   /* Adjust the font size */
+  color: #000000;
+}
+
+.reg-button {
+  background-color: #03770d;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.course-cardDrop .description-container p {
+  word-wrap: break-word;
+}
+

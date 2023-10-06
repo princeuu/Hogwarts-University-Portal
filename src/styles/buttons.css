@@ -1,0 +1,59 @@
+/* Styles for custom buttons */
+.button-container {
+  position: absolute;
+
+  min-width: 55%;
+  max-width: 63%;
+  overflow-y: auto;
+
+  position: fixed;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-20%);
+  display: flex;
+  
+  gap: 5px;
+}
+
+.button {
+  padding: 25px 30px;
+  background-color: #03770d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+}
+
+.button:hover {
+  background-color: #01933b;
+}
+
+.button:focus {
+  outline: none;
+}
+
+/* Laptops and Macbooks below */
+@media (max-width: 1470px) { /* pixels on a screen size */
+  .button {
+    padding: 25px 20px; /* Button Sizing */
+    font-size: 1rem; /* font size */
+  }
+}
+
+/* Laptops and Macbooks below */
+@media (max-width: 1370px) { /* pixels on a screen size */
+  .button {
+    padding: 25px 20px; /* Button Sizing */
+    font-size: 1rem; /* font size */
+  }
+}
+
+
+
+
+  
+

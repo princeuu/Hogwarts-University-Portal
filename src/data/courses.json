@@ -1,0 +1,84 @@
+[
+  {
+    "courseName": "Charms",
+    "courseID": "101",
+    "teacher": "Ding",
+    "teachersID": 126,
+    "description": "How to cast spells that are used for specific purposes such as levitation, cleaning, and summoning.",
+    "studentsEnrolledArray": [
+      123,
+      124,
+      125
+    ],
+    "classRoom": 189,
+    "classDays": "Monday, Wednesday, Friday",
+    "classTime": "1:30pm to 2:30pm"
+  },
+  {
+    "courseName": "Divination",
+    "courseID": "102",
+    "teacher": "Ding",
+    "teachersID": 126,
+    "description": "A class that teaches students how to interpret omens, read tea leaves, and predict the future.",
+    "studentsEnrolledArray": [
+      125,
+      123
+    ],
+    "classRoom": 465,
+    "classDays": "Monday, Wednesday, Friday",
+    "classTime": "12:00pm to 1:45pm"
+  },
+  {
+    "courseName": "Care of Magical Creatures ",
+    "courseID": "103",
+    "teacher": "Ding",
+    "teachersID": 126,
+    "description": "A class that introduces students to a wide variety of magical creatures and teaches them how to care for them.",
+    "studentsEnrolledArray": [
+      124,
+      123
+    ],
+    "classRoom": 103,
+    "classDays": "Monday, Wednesday, Friday",
+    "classTime": "8:00am to 9:00am"
+  },
+  {
+    "courseName": "Ancient Runes",
+    "courseID": "104",
+    "teacher": "Ding",
+    "teachersID": 126,
+    "description": " A class that teaches students how to read and write ancient magical symbols, which are used for spells, curses, and other magical purposes. ",
+    "studentsEnrolledArray": [
+      124,
+      125,
+      123
+    ],
+    "classRoom": 398,
+    "classDays": "Tuesday, Thursday",
+    "classTime": "10:00am to 11:30am"
+  },
+  {
+    "courseName": "Compsci",
+    "courseID": "222",
+    "teachersID": 126,
+    "teacher": "Ding",
+    "description": "ddthhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+    "classRoom": "999",
+    "classDays": "Monday, Friday",
+    "classTime": "1pm - 3pm",
+    "studentsEnrolledArray": [
+      124
+    ]
+  },
+  {
+    "courseName": "idk",
+    "courseID": "123",
+    "teachersID": 123,
+    "teacher": "Ding",
+    "description": "sdfsdfsdfsdf",
+    "classRoom": "123",
+    "classDays": "monday,friday",
+    "classTime": "12:30-1;30",
+    "studentsEnrolledArray": []
+  }
+]

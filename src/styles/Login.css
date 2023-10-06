@@ -1,0 +1,104 @@
+.login-form {
+  margin: auto;
+
+  margin-top: 5%;
+  max-width: 400px;
+  border: 1.35px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 250px 50px 250px; /* add 400px of padding to the left side */
+  position: relative;
+}
+
+form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/ClassRoom1.jpg");
+  background-size: cover;
+  filter: blur(6px);
+  z-index: -1;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#email #password {
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  
+}
+
+input[type=email], input[type=password] {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+#submit {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #065e3f;
+  color: rgb(255, 255, 255);
+
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#submit:hover {
+  background-color: #01933b;
+}
+
+.error-msg {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  color: #721c24;
+}
+
+.image-container 
+{
+  height: 100%;
+  width: 40%;
+  background-color: #07402c;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+body {
+  background-image: url('../images/Entrance.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

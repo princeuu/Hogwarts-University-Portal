@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Gothic';
+  src: url('./Gothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bluu Next Bold';
+  src: url('./BluuNext-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Vogue';
+  src: url('./Vogue.ttf') format('opentype');
+}

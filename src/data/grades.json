@@ -1,0 +1,66 @@
+[
+    {
+        "courseID": "101", 
+        "teachersID": 126,
+        "studentID": 125,
+        "grade": "A",
+        "studentName": "Prince"
+        
+        
+    },
+
+    {
+        "courseID": "101", 
+        "teachersID": 126,
+        "studentID": 124,
+        "grade": "B",
+        "studentName": "Jamie"
+        
+        
+    },
+    {
+        "courseID": "102", 
+        "teachersID": 126,
+        "studentID": 125,
+        "grade": "C",
+        "studentName": "Prince"
+        
+        
+    },
+    {
+        "courseID": "102", 
+        "teachersID": 126,
+        "studentID": 123,
+        "grade": "D",
+        "studentName": "Kyle"
+        
+        
+    },
+    {
+        "courseID": "103", 
+        "teachersID": 126,
+        "studentID": 124,
+        "grade": "F",
+        "studentName": "Jamie"
+        
+        
+    },
+    {
+        "courseID": "104", 
+        "teachersID": 126,
+        "studentID": 124,
+        "grade": "A",
+        "studentName": "Jamie"
+        
+        
+    },
+    {
+        "courseID": "104", 
+        "teachersID": 126,
+        "studentID": 125,
+        "grade": "B" ,
+        "studentName": "Prince"
+    }
+   
+    
+]

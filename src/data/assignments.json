@@ -1,0 +1,51 @@
+[
+  {
+    "assignmentName": "Potions Essay",
+    "courseID": "101",
+    "teachersID": 126,
+    "assignmentDueDate": "04/25/2023",
+    "assignmentDueTime": "12:00:00",
+    "assignmentDescription": "Write an essay on a particular potion, its ingredients, preparation, and usage.",
+    "dayAssigned": "January 15th, 2023",
+    "assignmentWorth": "15pts"
+  },
+  {
+    "assignmentName": "Herbology Report",
+    "courseID": "102",
+    "teachersID": 126,
+    "assignmentDueDate": "04/22/2023",
+    "assignmentDueTime": "12:00:00",
+    "assignmentDescription": "Write a report on a particular magical plant, its properties, uses, and growing conditions.",
+    "dayAssigned": "January 15th, 2023",
+    "assignmentWorth": "25pts"
+  },
+  {
+    "assignmentName": "Charms Incantation Test",
+    "courseID": "103",
+    "teachersID": 126,
+    "assignmentDueDate": "04/29/2023",
+    "assignmentDueTime": "12:00:00",
+    "assignmentDescription": "Demonstrate their knowledge of various incantations by performing them correctly in front of the class.",
+    "dayAssigned": "January 15th, 2023",
+    "assignmentWorth": "20pts"
+  },
+  {
+    "assignmentName": "History of Magic Essay",
+    "courseID": "104",
+    "teachersID": 126,
+    "assignmentDueDate": "04/26/2023",
+    "assignmentDueTime": "12:00:00",
+    "assignmentDescription": "Write an essay on a particular event, person or era in wizarding history.",
+    "dayAssigned": "January 15th, 2023",
+    "assignmentWorth": "30pts"
+  },
+  {
+    "assignmentName": "Exam 1",
+    "teachersID": 126,
+    "assignmentDueDate": "04/29/2023",
+    "assignmentDueTime": "10:29",
+    "assignmentWorth": "3",
+    "assignmentDescription": "hghg",
+    "courseID": "222"
+  }
+]

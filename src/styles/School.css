@@ -1,0 +1,101 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hogwarts-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.image-title-text {
+  position: absolute;
+  font-family: "Bluu Next Bold", Papyrus, fantasy;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  animation-name: reveal;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes reveal {
+  from {
+    color: transparent;
+    text-shadow: none;
+  }
+  to {
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.image-text-desc {
+  position: absolute;
+  font-family: "Bluu Next Bold", Papyrus, fantasy;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.632);
+  margin: 0;
+  max-width: 80%;
+  animation-name: reveal;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.btn {
+  position: absolute;
+  top: 45px;
+  right: 30px;
+  padding: 10px 20px;
+  background-color: #03770d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #01933b;
+}
+
+.page-content {
+  margin-bottom: -35px;
+}
+
+@media only screen and (max-width: 2140px) {
+  .image-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    top: 50%
+  }
+
+  .image-text-desc {
+    font-size: 1.25rem;
+    top: 60%;
+    line-height: 1.5;
+  }
+}
